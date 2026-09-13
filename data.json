@@ -1,0 +1,188 @@
+{
+  "products": [
+    {
+      "id": "p1",
+      "name": "Japanese Muskmelon",
+      "slug": "japanese-muskmelon",
+      "category": "exotic",
+      "origin": "Shizuoka, Japan",
+      "short_description": "A fragrant, hand-selected seasonal melon.",
+      "long_description": "A delicately sweet muskmelon selected for aroma and texture.",
+      "season_status": "limited",
+      "handling_notes": "Keep cool; enjoy within two days.",
+      "images": [
+        "🍈"
+      ],
+      "is_active": true,
+      "is_gift_eligible": true,
+      "variants": [
+        {
+          "id": "v1",
+          "sku": "EX-MEL-01",
+          "pack_label": "1 fruit",
+          "pack_type": "box",
+          "price": 189900,
+          "gst_percent": 5,
+          "stock_qty": 8,
+          "cod_allowed": false,
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "id": "p2",
+      "name": "Mamra Almonds",
+      "slug": "mamra-almonds",
+      "category": "dry_fruit",
+      "origin": "Kashmir",
+      "short_description": "Naturally rich, small-batch Mamra almonds.",
+      "long_description": "Whole almonds with a buttery bite, packed fresh.",
+      "season_status": "in_season",
+      "handling_notes": "Store airtight in a cool, dry place.",
+      "images": [
+        "🌰"
+      ],
+      "is_active": true,
+      "is_gift_eligible": true,
+      "variants": [
+        {
+          "id": "v2",
+          "sku": "DF-MAM-250",
+          "pack_label": "250 g",
+          "pack_type": "weight",
+          "price": 69900,
+          "gst_percent": 5,
+          "stock_qty": 32,
+          "cod_allowed": true,
+          "is_default": true
+        },
+        {
+          "id": "v3",
+          "sku": "DF-MAM-500",
+          "pack_label": "500 g",
+          "pack_type": "weight",
+          "price": 129900,
+          "gst_percent": 5,
+          "stock_qty": 19,
+          "cod_allowed": true,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "id": "p3",
+      "name": "Ratnagiri Alphonso Mango",
+      "slug": "ratnagiri-alphonso-mango",
+      "category": "mango",
+      "origin": "Ratnagiri, Maharashtra",
+      "short_description": "Naturally ripened Alphonso in a carefully packed box.",
+      "long_description": "Harvest-led mangoes from Ratnagiri farms. Colour can vary naturally.",
+      "season_status": "coming_soon",
+      "handling_notes": "Allow fruit to soften naturally at room temperature.",
+      "ripeness_note": "Delivered firm-to-turning; ripen at home for 2–4 days.",
+      "farm_story": "Sourced from a family farm; no artificial ripening claim.",
+      "harvest_window": "Apr–Jun",
+      "images": [
+        "🥭"
+      ],
+      "is_active": true,
+      "is_gift_eligible": false,
+      "variants": [
+        {
+          "id": "v4",
+          "sku": "MG-ALP-06",
+          "pack_label": "6 mango box",
+          "pack_type": "box",
+          "price": 119900,
+          "gst_percent": 5,
+          "stock_qty": 12,
+          "cod_allowed": false,
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "id": "p4",
+      "name": "Kesar Mango",
+      "slug": "kesar-mango",
+      "category": "mango",
+      "origin": "Gir, Gujarat",
+      "short_description": "Golden Kesar mangoes, harvested in season.",
+      "long_description": "A bright, aromatic seasonal mango with a balanced sweetness.",
+      "season_status": "off_season",
+      "ripeness_note": "Ripeness at delivery varies with harvest conditions.",
+      "harvest_window": "May–Jul",
+      "images": [
+        "🥭"
+      ],
+      "is_active": true,
+      "is_gift_eligible": false,
+      "variants": [
+        {
+          "id": "v5",
+          "sku": "MG-KES-06",
+          "pack_label": "6 mango box",
+          "pack_type": "box",
+          "price": 109900,
+          "gst_percent": 5,
+          "stock_qty": 0,
+          "cod_allowed": false,
+          "is_default": true
+        }
+      ]
+    }
+  ],
+  "pincodes": [
+    {
+      "pincode": "400001",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "serviceable": true,
+      "mango_eligible": true,
+      "delivery_days_min": 2,
+      "delivery_days_max": 4,
+      "cod_allowed": true
+    },
+    {
+      "pincode": "110001",
+      "city": "New Delhi",
+      "state": "Delhi",
+      "serviceable": true,
+      "mango_eligible": false,
+      "delivery_days_min": 3,
+      "delivery_days_max": 5,
+      "cod_allowed": true
+    }
+  ],
+  "orders": [],
+  "users": [],
+  "waitlist": [],
+  "banner": {
+    "title": "The mango season, naturally timed.",
+    "subtitle": "Harvest-led fruit from farms we know.",
+    "season_state": "coming_soon",
+    "cta_label": "Explore the season",
+    "cta_url": "/mango-season",
+    "is_published": true
+  },
+  "seasons": [
+    {
+      "id": "s1",
+      "variety_name": "Alphonso",
+      "product_id": "p3",
+      "harvest_start": "2026-04-01",
+      "harvest_end": "2026-06-30",
+      "waitlist_enabled": true,
+      "status": "upcoming"
+    },
+    {
+      "id": "s2",
+      "variety_name": "Kesar",
+      "product_id": "p4",
+      "harvest_start": "2026-05-01",
+      "harvest_end": "2026-07-15",
+      "waitlist_enabled": true,
+      "status": "closed"
+    }
+  ]
+}
